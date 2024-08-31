@@ -1,6 +1,6 @@
 # docker-pxt-arcade
-[![Build Status](https://travis-ci.org/iaroslavn/docker-pxt-arcade.svg?branch=master)](https://travis-ci.org/iaroslavn/docker-pxt-arcade)
-[![License](https://img.shields.io/badge/BSD-0--clause-blue.svg)](https://github.com/iaroslavn/docker-pxt-arcade/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/nestormata/docker-pxt-arcade.svg?branch=master)](https://travis-ci.org/nestormata/docker-pxt-arcade)
+[![License](https://img.shields.io/badge/BSD-0--clause-blue.svg)](https://github.com/nestormata/docker-pxt-arcade/blob/master/LICENSE)
 
 Docker image for [pxt-arcade](https://github.com/Microsoft/pxt-arcade) editor on Node.js server.
 
@@ -11,10 +11,10 @@ Look no further.
 
 1. Execute:
 ```bash
-git clone https://github.com/iaroslavn/docker-pxt-arcade.git \
+git clone https://github.com/nestormata/docker-pxt-arcade.git \
 && cd docker-pxt-arcade \
-&& docker build -t iaroslavn/pxt-arcade . \
-&& docker run -p 3232:3232 --name pxt-arcade -d iaroslavn/pxt-arcade
+&& docker build -t nestormata/pxt-arcade . \
+&& docker run -p 3232:3232 --name pxt-arcade -d nestormata/pxt-arcade
 ```
 2. Open http://your_docker_host_ip:3232 in your browser (it may take a while for the server to spin up).
 

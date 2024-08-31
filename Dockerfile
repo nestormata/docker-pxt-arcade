@@ -5,7 +5,7 @@ ADD entrypoint.sh /entrypoint.sh
 WORKDIR /usr/src/app/pxt-arcade
 
 RUN chmod +x /entrypoint.sh \
-    && wget https://github.com/Microsoft/pxt-arcade/archive/v0.5.7.tar.gz -O - | tar --strip-components=1 -xz \
+    && wget https://github.com/Microsoft/pxt-arcade/archive/v1.12.56.tar.gz -O - | tar --strip-components=1 -xz \
     && npm i npm@latest -g \
     && npm install -g pxt \
     && npm install
